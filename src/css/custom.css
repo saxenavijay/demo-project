@@ -1,0 +1,211 @@
+:root{
+  --app-sidebar-color:#17556D;  
+}
+
+
+.nav-header {
+    height: 5rem;
+    background-color:white;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+}
+
+.deznav {
+    background-color: white;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+}
+
+.header {
+    height: 5rem;
+    background-color: white;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+}
+
+.content-body {
+    background-color: #FCFCFC;
+}
+
+/* HOME */
+
+.bordered-card {
+    border: 1px solid #F1F1F1;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.circle-1 {
+    height: 25px;
+    width: 25px;
+    content: "";
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.card-bold-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #1A1A1A;
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+
+
+/* Profile */
+.jto-top-profile-item {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+.profile-caption-1 figcaption {
+    position: absolute;
+    bottom: 65px;
+    left: 0;
+    right: 0;
+}
+
+.qr-svg {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.qr-box {
+    width: 100px;
+    height: 100px;
+}
+
+
+.resizable-content {
+    min-height: 100px;
+    min-width: 100px;
+    resize: both;
+    overflow: auto;
+    max-height: fit-content;
+    max-width: fit-content;
+}
+
+.react-input-emoji--input {
+    max-height: 200px;
+    min-height: 150px;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 0;
+}
+
+.required-field::after {
+    content: "*";
+    color: red;
+    margin-left: 2px;
+}
+.required::before{
+    content: "*";
+    color: red;
+    margin-left: 2px;
+}
+.expdate{
+    border-radius: 5px;
+}
+
+.active {
+    background-color: var(--app-sidebar-color);
+}
+.ai-icon .active a span{
+    color: white;
+}
+
+.setting {
+    display: flex;
+    background-color: white;
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 200px;
+}
+
+.unsubscribers {
+    color: #1A1A1A;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.numberfilter{
+    color: #1A1A1A;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.numberfilter .container{
+    height: 200px;
+}
+.unsubscribers .container{
+    min-height: 200px;
+}
+.goyral-logo{
+    min-width: 80px;
+}
+.page-nav li{
+    display: inline;
+    padding-right: 10px;
+    
+}
+
+.page-nav li a{
+    margin-top: 10px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.page-nav .active{
+    background-color:rgb(188, 223, 235);
+    transform: rotate(180deg);
+    transition: 0.5s;
+    padding: 4px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nab-text,#icon{
+    color: white;
+    font-size: 14px;
+}
+.nav-link:hover{
+    background-color: var(--app-sidebar-color);;
+}
+
+.title {
+    padding-top: 20px;
+    width: 100%;
+}
+
+.s-body {
+    border-radius: 7px 7px 0px 0px;
+    min-height: 198px;
+}
+.s-body .row{
+    padding: 5px;
+    background-color: lavender;
+}
+.bgclr{
+    background-color: lavender;
+}
+.nav-link .ai-icon:hover{
+    color: white;
+    transition: 1.5s;
+    margin-left: 20px;
+}
+.nav-link:hover{
+    background-color: var(--app-sidebar-color);
+}
